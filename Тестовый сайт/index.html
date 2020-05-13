@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="pc">
+        <div class="left_block">
+            <div class="left_block__logo">
+                <img src="images/Logo.svg" alt="Логотип">
+            </div>
+            <div class="left_block__menu">
+                <ul>
+                    <li>About</li>
+                    <li onclick="open_under_menu()" id="btn_help">Help <svg id="arrow" width="10" height="6"
+                            viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path id="union" fill-rule="evenodd" clip-rule="evenodd"
+                                d="M5.70633 2.79356C5.31582 3.18404 4.6827 3.18404 4.29219 2.79356L1.87467 0.376274C1.52957 0.0312008 0.970075 0.0312017 0.62497 0.376275C0.279818 0.721394 0.279818 1.28098 0.62497 1.6261L4.37443 5.37521C4.71954 5.72028 5.27903 5.72028 5.62414 5.37521L6.24909 4.75031C6.2491 4.7503 6.2491 4.75029 6.24909 4.75028C6.24909 4.75028 6.24909 4.75026 6.24909 4.75026L9.37503 1.62461C9.72018 1.2795 9.72018 0.719912 9.37503 0.374793C9.02992 0.0297193 8.47043 0.0297198 8.12533 0.374793L5.70633 2.79356Z"
+                                fill="#212353" />
+                        </svg>
+                    </li>
+                    <li>Features</li>
+                </ul>
+            </div>
+            <div class="left_block__menu--under_open_block" id="under_menu">
+                <div class="square"></div>
+                <ul>
+                    <li>User Guide</li>
+                    <li>Contact Support</li>
+                </ul>
+            </div>
+        </div>
+        <div class="signUp">
+            <button class="top_btn">Sign Up</button>
+        </div>
+    </header>
+
+    <header class="mobile">
+        <div class="left_block">
+            <div class="left_block__logo menu_mobile">
+                <img src="images/Logo.svg" alt="Логотип">
+                <div onclick="open_mob()" class="burger" id="br_change"></div>
+            </div>
+        </div>
+        <div class="open_mob" id="open_under_mob">
+            <div class="open_mob__line">
+                <p>About</p>
+            </div>
+            <div class="open_mob__line" onclick="help_under_mob()">
+                <p>Help</p>
+                <svg id="turn_arrow_mob" width="11" height="18" viewBox="0 0 11 18" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M5.91751 8.30225C6.29746 8.69087 6.29746 9.3118 5.91751 9.70042L0.686091 15.0512C0.306144 15.4399 0.306145 16.0608 0.686092 16.4494L1.48705 17.2686C1.87932 17.6699 2.52486 17.6699 2.91713 17.2686L10.3165 9.70037C10.6965 9.31175 10.6965 8.69082 10.3165 8.3022L8.80055 6.75163C8.80053 6.75162 8.80051 6.75162 8.8005 6.75163C8.80049 6.75164 8.80046 6.75164 8.80045 6.75163L2.91452 0.73136C2.52225 0.330138 1.87671 0.330139 1.48444 0.73136L0.683481 1.5506C0.303535 1.93922 0.303535 2.56015 0.683482 2.94876L5.91751 8.30225Z"
+                        fill="#212353" />
+                </svg>
+            </div>
+            <div class="open_mob__underline" id=open_under_help_mob>
+                <p>User Guide</p>
+                <p>Contact Support</p>
+            </div>
+            <div class="open_mob__line">
+                <p>Features</p>
+            </div>
+            <div class="signUp mob_singUp">
+                <button class="top_btn">Sign Up</button>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+        <div class="main_text">
+            <h1>Features</h1>
+            <p>Some of the features and advantages that we provide for those of you who store data in this Data
+                Warehouse.</p>
+        </div>
+        <div class="main_slider pc">
+            <div class="main_slide" id="move_left">
+                <div class="main_slider__block ">
+                    <img class="main_slider__block--big_images1" src="images/1.svg" alt="Один">
+                    <div class="main_slider__block--text">
+                        <h2>First Feature</h2>
+                        <p>Little Red Cap opened her eyes and when she saw the sunbeams dancing to and fro through the
+                            trees
+                            and
+                            how the ground was covered with beautiful flowers.</p>
+                        <a href="#">Learn more <img src="images/arrow.svg" alt="Стрелка"></a>
+                    </div>
+                </div>
+                <div class="main_slider__block ">
+                    <img class="main_slider__block--big_images2" src="images/2.svg" alt="Два">
+                    <div class="main_slider__block--text">
+                        <h2>Second Feature</h2>
+                        <p>Each time she picked one she thought that she could see an even more beautiful one a little
+                            way
+                            off, and she ran after it, going further and further into the woods.</p>
+                        <a href="#">Learn more <img src="images/arrow.svg" alt="Стрелка"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="main_slide unshow" id="move_right">
+                <div class="main_slider__block">
+                    <img class="main_slider__block--big_images3" src="images/3.svg" alt="Три">
+                    <div class="main_slider__block--text">
+                        <h2>Third Feature</h2>
+                        <p>The wolf pressed the latch, and the door opened. He stepped inside, went straight to the
+                            grandmother's bed, and ate her up.</p>
+                        <a href="#">Learn more <img src="images/arrow.svg" alt="Стрелка"></a>
+                    </div>
+                </div>
+                <div class="main_slider__block">
+                    <img class="main_slider__block--big_images4" src="images/4.svg" alt="Четыре">
+                    <div class="main_slider__block--new">
+                        new
+                    </div>
+                    <div class="main_slider__block--text">
+                        <h2>Fourth Feature</h2>
+                        <p>Little Red Cap had run after the flowers. After she had gathered so many that she could not
+                            carry
+                            any more, she remembered her grandmother.</p>
+                        <a href="#">Learn more <img src="images/arrow.svg" alt="Стрелка"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="main_slider__choose">
+                <div class="main_slider__choose--on" onclick="change_slide1()" id="slide1"></div>
+                <div class="main_slider__choose--off" onclick="change_slide2()" id="slide2"></div>
+            </div>
+        </div>
+
+        <div class="main_slider mobile">
+
+            <div class="main_slider__block " id="mob_move1">
+                <img class="main_slider__block--big_images1" src="images/1.svg" alt="Один">
+                <div class="main_slider__block--text">
+                    <h2>First Feature</h2>
+                    <p>Little Red Cap opened her eyes and when she saw the sunbeams dancing to and fro through the
+                        trees
+                        and
+                        how the ground was covered with beautiful flowers.</p>
+                    <a href="#">Learn more <img src="images/arrow.svg" alt="Стрелка"></a>
+                </div>
+            </div>
+            <div class="main_slider__block unshow" id="mob_move2">
+                <img class="main_slider__block--big_images2" src="images/2.svg" alt="Два">
+                <div class="main_slider__block--text">
+                    <h2>Second Feature</h2>
+                    <p>Each time she picked one she thought that she could see an even more beautiful one a little
+                        way
+                        off, and she ran after it, going further and further into the woods.</p>
+                    <a href="#">Learn more <img src="images/arrow.svg" alt="Стрелка"></a>
+                </div>
+            </div>
+            <div class="main_slider__block unshow" id="mob_move3">
+                <img class="main_slider__block--big_images3" src="images/3.svg" alt="Три">
+                <div class="main_slider__block--text">
+                    <h2>Third Feature</h2>
+                    <p>The wolf pressed the latch, and the door opened. He stepped inside, went straight to the
+                        grandmother's bed, and ate her up.</p>
+                    <a href="#">Learn more <img src="images/arrow.svg" alt="Стрелка"></a>
+                </div>
+            </div>
+            <div class="main_slider__block unshow" id="mob_move4">
+                <img class="main_slider__block--big_images4" src="images/4.svg" alt="Четыре">
+                <div class="main_slider__block--new">
+                    new
+                </div>
+                <div class="main_slider__block--text">
+                    <h2>Fourth Feature</h2>
+                    <p>Little Red Cap had run after the flowers. After she had gathered so many that she could not
+                        carry
+                        any more, she remembered her grandmother.</p>
+                    <a href="#">Learn more <img src="images/arrow.svg" alt="Стрелка"></a>
+                </div>
+            </div>
+            <div class="main_slider__choose">
+                <div class="main_slider__choose--on" onclick="change_slide_1()" id="slide_1"></div>
+                <div class="main_slider__choose--off" onclick="change_slide_2()" id="slide_2"></div>
+                <div class="main_slider__choose--off" onclick="change_slide_3()" id="slide_3"></div>
+                <div class="main_slider__choose--off" onclick="change_slide_4()" id="slide_4"></div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class=" footer_width">
+            <div class="left_block">
+                <div class="left_block__logo bot_logo">
+                    <img src="images/Logo_bot.svg" alt="Логотип">
+                </div>
+                <div class="left_block__menu bot_menu">
+                    <ul>
+                        <li>About</li>
+                        <li>Privacy Policy</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="signUp sign_mob_block">
+                <input type="text" placeholder="Enter your email">
+                <button class="bot_btn">Sign Up Now</button>
+            </div>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
