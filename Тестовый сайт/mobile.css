@@ -1,0 +1,225 @@
+/* 992 */
+@media screen and (min-width: 320px) and (max-width: 1366px) {
+  header {
+    width: 100%;
+    padding-top: 25px;
+  }
+  main {
+    margin-top: 75px;
+  }
+  .left_block {
+    margin-left: 30px;
+    width: 100%;
+    z-index: 2;
+  }
+  .left_block__logo {
+    margin-right: 30px;
+  }
+  .bot_logo {
+    margin-right: 70px;
+  }
+  .main_slider {
+    width: 682px;
+  }
+  .mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .pc {
+    display: none;
+  }
+  .main_slider__block {
+    margin-right: 0;
+  }
+  .footer_width {
+    width: 100%;
+  }
+  .menu_mobile {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  .signUp {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 30px;
+  }
+  .signUp input {
+    width: 247px;
+  }
+  .left_block__menu ul {
+    display: block;
+  }
+  .bot_menu ul > li {
+    margin-top: 20px;
+  }
+
+  .open_mob {
+    margin-top: 60px;
+    -webkit-box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.15);
+    position: absolute;
+    width: 100%;
+    background: #ffffff;
+    z-index: 1;
+    display: none;
+  }
+  .open_mob__line {
+    width: 100%;
+    height: 75px;
+    border-top: 1px solid #d6b9ff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  .open_mob__line p {
+    margin-left: 32px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 277%;
+    color: #212353;
+  }
+  .open_mob__line svg {
+    margin-right: 32px;
+  }
+  .open_mob__line:nth-child(4) {
+    border-bottom: 1px solid #d6b9ff;
+  }
+  .open_mob__underline {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 277%;
+    color: #212353;
+    border-top: 1px solid #d6b9ff;
+    background: #f9f4ff;
+    display: none;
+  }
+  .open_mob__underline p {
+    margin: 0;
+    margin-left: 62px;
+  }
+  .mob_singUp {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 148px;
+  }
+  .burger {
+    width: 36px;
+    height: 36px;
+    background: url(images/burger.svg) no-repeat 50% 50%;
+  }
+  .bot_menu ul > li {
+    color: #ffffff;
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 710px) {
+  .main_text {
+    width: 87%;
+  }
+  .main_slider {
+    width: 100%;
+    height: 495px;
+    border-radius: 0;
+  }
+  .main_slider__block--big_images1,
+  .main_slider__block--big_images2,
+  .main_slider__block--big_images3,
+  .main_slider__block--big_images4 {
+    display: none;
+  }
+  .main_slider__block--text {
+    margin-left: 0;
+    margin: 0 auto;
+  }
+  .main_slider__block {
+    width: 90%;
+  }
+  .main_slider__choose {
+    bottom: 30px;
+    left: 40%;
+  }
+  .footer_width {
+    display: block;
+  }
+  .left_block {
+    margin-left: 0;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  .left_block__logo {
+    margin-right: 24px;
+    margin-left: 24px;
+  }
+  .bot_logo {
+    margin-left: 24px;
+  }
+  .bot_menu ul > li {
+    margin-right: 24px;
+  }
+  .main_slider {
+    margin-bottom: 73px;
+  }
+  .signUp {
+    margin-right: 0;
+  }
+  .sign_mob_block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+  }
+  .sign_mob_block input {
+    width: 90%;
+    height: 48px;
+    margin-right: 0;
+    margin-bottom: 25px;
+  }
+  .footer_width {
+    height: 344px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
+}
